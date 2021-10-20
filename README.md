@@ -13,21 +13,17 @@ Follow the instructions below to run it:
    ```sh
    git clone https://github.com/mkstamin/task-for-QuadB.git
    ```
-2. Run
+2. Install
+
    ```sh
    yarn install
    ```
-3. Run
-   ```sh
-   yarn start
-   ```
-4. It will be run in http://localhost:3000
 
 <!-- Editor Setup -->
 
-## Editor Setup
+## Editor Setup Run The Project
 
-These are the VS Code editor set up for ReactJS project.
+These are the VS Code editor set up for this ReactJS project.
 
 ### Plugins
 
@@ -70,19 +66,6 @@ Follow the below settings for VS Code -
     "javascript": "javascriptreact"
   }
 }
-```
-
-## Linting Setup
-
-In order to lint and format your React project automatically according to popular airbnb style guide, I follow the instructions below.
-
-### Install Dev Dependencies
-
-```sh
-yarn add -D prettier
-yarn add -D babel-eslint
-npx install-peerdeps --dev eslint-config-airbnb
-yarn add -D eslint-config-prettier eslint-plugin-prettier
 ```
 
 ### Create Linting Configuration file manually
@@ -138,3 +121,11 @@ Create a `.eslintrc` file in the project root and past the contents below:
   "plugins": ["prettier", "react", "react-hooks"]
 }
 ```
+
+<!-- Run The Project-->
+
+3. Run
+   ```sh
+   yarn start
+   ```
+4. It will be run in http://localhost:3000
